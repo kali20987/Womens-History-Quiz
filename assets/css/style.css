@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.titlep {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titlefooter { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+}
+
+
