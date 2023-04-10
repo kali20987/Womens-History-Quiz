@@ -10,21 +10,55 @@
 
 <body>
 
-    <header>
-        <div id="instructions1" class="titlep">
-            <h1>Coding Quiz Challenge</h1>
+    <div id="instructions_block" style="display:inline">
+        <header>
+            <div id="instructions1" class="titlep">
+                <h1>Coding Quiz Challenge</h1>
+            </div>
+        </header>
+        <div class="titlep" id="instructions2">
+            <p>Try to answer the following code-related questions within the time limit.
+                Keep in mind that incorrect answers will penalize your score/time by 15 seconds!</p>
         </div>
-    </header>
-    <div class="titlep" id="instructions2">
-        <p>Try to answer the following code-related questions within the time limit.
-            Keep in mind that incorrect answers will penalize your score/time by 15 seconds!</p>
-    </div>
-    <!--    <div class="instructions" onclick="startQuiz()" id="instructions_button"> -->
-    <div class="titlep" id="start_quiz_button">
-        <button>Start Quiz</button>
+        <!--    <div class="instructions" onclick="startQuiz()" id="instructions_button"> -->
+        <div class="titlep" id="start_quiz_button">
+            <button>Start Quiz</button>
+        </div>
     </div>
 
-    <p id="question_paragraph"></p>
+    <div>
+        <p style="display:none" id="question1"><strong>Commonly used data types do NOT include:</strong>
+            <button id="q1wrong">strings</button>
+            <button id="q1wrong">booleans</button>
+            <button id="q1right">alerts</button>
+            <button id="q1wrong">numbers</button>
+        </p>
+    </div>
+    
+    <div>
+        <p style="display:none" id="question2"><strong>The condition in an if/else statement is enclosed within:</strong>
+            <button id="q2wrong">quotes</button>
+            <button id="q2wrong">curly brackets</button>
+            <button id="q2right">parentheses</button>
+            <button id="q2wrong">square brackets</button>
+        </p>
+    </div>
+    <div>
+        <p style="display:none" id="question3"><strong>Arrays in JavaScript can be used to store:</strong>
+            <button id="q3wrong">numbers and strings</button>
+            <button id="q3wrong">other arrays</button>
+            <button id="q3wrong">booleans</button>
+            <button id="q3right">all of the above</button>
+        </p>
+    </div>
+    <div>
+        <p style="display:none" id="results"><strong>All Done!</strong></p>
+    </div>
+<div id="current_results">
+    <p>
+
+    </p>
+</div>
 
     <script src="assets/js/script.js"></script>
 
