@@ -21,45 +21,45 @@
                 Keep in mind that incorrect answers will penalize your score/time by 15 seconds!</p>
         </div>
         <!--    <div class="instructions" onclick="startQuiz()" id="instructions_button"> -->
-        <div class="titlep" id="start_quiz_button">
-            <button>Start Quiz</button>
+            <div class="titlep" id="start_quiz_button">
+            <button onclick="startTimer()">Start Quiz</button>
         </div>
+    </div>
+    <p id="showscore">Time:</p>
+    <div id="current_results">
+        <p></p>
     </div>
 
     <div>
         <p style="display:none" id="question1"><strong>Commonly used data types do NOT include:</strong>
-            <button id="q1wrong">strings</button>
-            <button id="q1wrong">booleans</button>
+            <button class="q1wrong">strings</button>
+            <button class="q1wrong">booleans</button>
             <button id="q1right">alerts</button>
-            <button id="q1wrong">numbers</button>
+            <button class="q1wrong">numbers</button>
         </p>
     </div>
     
     <div>
         <p style="display:none" id="question2"><strong>The condition in an if/else statement is enclosed within:</strong>
-            <button id="q2wrong">quotes</button>
-            <button id="q2wrong">curly brackets</button>
+            <button class="q2wrong">quotes</button>
+            <button class="q2wrong">curly brackets</button>
             <button id="q2right">parentheses</button>
-            <button id="q2wrong">square brackets</button>
+            <button class="q2wrong">square brackets</button>
         </p>
     </div>
     <div>
         <p style="display:none" id="question3"><strong>Arrays in JavaScript can be used to store:</strong>
-            <button id="q3wrong">numbers and strings</button>
-            <button id="q3wrong">other arrays</button>
-            <button id="q3wrong">booleans</button>
+            <button class="q3wrong">numbers and strings</button>
+            <button class="q3wrong">other arrays</button>
+            <button class="q3wrong">booleans</button>
             <button id="q3right">all of the above</button>
         </p>
     </div>
     <div>
-        <p style="display:none" id="results"><strong>All Done!</strong></p>
+        <p style="display:none" id="results"><strong>All done! Your final score is:</strong></p>
     </div>
-<div id="current_results">
-    <p>
 
-    </p>
-</div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
 
 </body>

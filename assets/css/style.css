@@ -16,4 +16,9 @@ header {
     padding: 12px 28px;
 }
 
+.q1right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
