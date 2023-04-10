@@ -116,8 +116,20 @@ function myFunction() {
     results();
   }
 }
+document.getElementById("submit").addEventListener("click", highscores);
 
+function highscores() {
+    document.getElementById("highscores").style = 'display:inline';
+    document.getElementById("question3").style = 'display:none';
+    document.getElementById("question2").style = 'display:none';
+    document.getElementById("question1").style = 'display:none';
+    document.getElementById("results").style = 'display:none';
+    //    document.getElementById("current_results").innerHTML= 'All done';
+}
+localStorage.setItem("initials", "hs");
+document.getElementById("").innerHTML = localStorage.getItem("initials", "hs");
 
+document.getElementById("gb").addEventListener("click", titlep);
 
 
 // function question2() {
