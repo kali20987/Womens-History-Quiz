@@ -1,7 +1,7 @@
-
+//this makes it so when the user clicks a button then it will take them to the next page
 document.getElementById("start_quiz_button").addEventListener("click", question1);
 document.getElementById("question1").addEventListener("click", question2);
-
+//this is if a user clicks a wrong answer
 var q1wrong_answers = document.getElementsByClassName("q1wrong");
 for (let item of q1wrong_answers) {
     item.addEventListener("click", q1wrong_handler);
@@ -16,7 +16,7 @@ var q3wrong_answers = document.getElementsByClassName("q3wrong");
 for (let item of q3wrong_answers) {
     item.addEventListener("click", q3wrong_handler);
 }
-
+//this is if a user clicks a right answer
 document.getElementById("q1right").addEventListener("click", q1right_handler);
 
 document.getElementById("question2").addEventListener("click", question3);
@@ -24,7 +24,7 @@ document.getElementById("q2right").addEventListener("click", q2right_handler);
 
 document.getElementById("question3").addEventListener("click", results);
 document.getElementById("q3right").addEventListener("click", q3right_handler);
-
+//all these are do display or reloading the page
 function loadTitle() {
     window.location.reload();
 }
@@ -92,13 +92,13 @@ function q3wrong_handler() {
     $("#current_results").fadeIn();
     $("#current_results").fadeOut();
 }
-
+//this is to store the highscores
 function setscore() {
     localStorage.setItem(document.getElementById("initials").value, score);
     document.getElementById("results").style = 'display:none';
     highscores();
 }
-
+//this is for the results or all done page
 function results() {
     stopTimer();
     document.getElementById("results").style = 'display:inline';
@@ -114,7 +114,7 @@ function results() {
     document.getElementById("gb").addEventListener("click", loadTitle);
     
 }
-
+//this is to keep the score and timer
 let score = 60;
 let timerVar = '';
 function startTimer() {
@@ -146,10 +146,10 @@ function highscores() {
 
     }
 }
+//this is to clear local storage
 function clearhs() {
     localStorage.clear();
 }
 
 document.getElementById("ch").addEventListener("click", clearhs);
-
 
