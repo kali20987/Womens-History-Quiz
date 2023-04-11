@@ -21,13 +21,15 @@
                 Keep in mind that incorrect answers will penalize your score/time by 15 seconds!</p>
         </div>
         <!--    <div class="instructions" onclick="startQuiz()" id="instructions_button"> -->
-            <div class="titlep" id="start_quiz_button">
+        <div class="titlep" id="start_quiz_button">
             <button onclick="startTimer()">Start Quiz</button>
         </div>
     </div>
-    <p id="showscore">Time:</p>
-    <div id="current_results">
-        <p></p>
+
+    <div id="time_section">
+        <p id="showscore"></p>
+        <div id="current_results">
+        </div>
     </div>
 
     <div>
@@ -38,9 +40,10 @@
             <button class="q1wrong">numbers</button>
         </p>
     </div>
-    
+
     <div>
-        <p style="display:none" id="question2"><strong>The condition in an if/else statement is enclosed within:</strong>
+        <p style="display:none" id="question2"><strong>The condition in an if/else statement is enclosed
+                within:</strong>
             <button class="q2wrong">quotes</button>
             <button class="q2wrong">curly brackets</button>
             <button id="q2right">parentheses</button>
@@ -56,15 +59,18 @@
         </p>
     </div>
     <div>
-        <p style="display:none" id="results"><strong>All done! Your final score is: =+showscore</strong>
+        <p style="display:none" id="results"><strong>All done! Your final score is: </strong>
+            <strong id="current_score"></strong>
             <label for="in">Enter intials: </label>
-            <input type="text" id="in" name="in"><br><br>
+            <input type="text" id="initials"><br><br>
             <button id="submit">Submit</button>
         </p>
     </div>
 
     <div>
-        <p style="display:none" id="highscores"><strong>Highscores</strong>
+        <p style="display:none" id="highscores">
+            <strong>Highscores</strong>
+
             <button id="gb">Go back</button>
             <button id="ch">Clear Highscores</button>
         </p>
