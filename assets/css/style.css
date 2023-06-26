@@ -32,6 +32,83 @@ body {
     background-color: palevioletred;
 }
 
+#question1 {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+}
+
+.q1wrong {
+    background-color: rgb(213, 131, 145);
+    font-size: large;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+#q1right {
+    background-color: rgb(213, 131, 145);
+    font-size: large;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+#question2 {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+.q2wrong {
+    background-color: rgb(213, 131, 145);
+    font-size: large;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+#q2right {
+    background-color: rgb(213, 131, 145);
+    font-size: large;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+#question3 {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+.q3wrong {
+    background-color: rgb(213, 131, 145);
+    font-size: large;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+#q3right {
+    background-color: rgb(213, 131, 145);
+    font-size: large;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
 .titlep {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,9 +121,47 @@ body {
     padding: 12px 28px;
 }
 
-.q1right {
+#results {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+#submit {
+    background-color: rgb(213, 131, 145);
+    font-size: large;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+#highscores {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+#gb {
+    background-color: rgb(213, 131, 145);
+    font-size: large;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+#ch {
+    background-color: rgb(213, 131, 145);
+    font-size: large;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+/* .q1right {
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
+} */
 
