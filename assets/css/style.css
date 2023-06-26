@@ -1,7 +1,35 @@
-header {
+h1 {
     text-align: center;
     padding: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: 100px;
+    font-family: cursive;
+    color: white;
+    
+}
+
+#inst2 {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+#inst3 {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+#start {
+    background-color: rgb(213, 131, 145);
+    font-size: large;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+body {
+    background-color: palevioletred;
 }
 
 .titlep {
